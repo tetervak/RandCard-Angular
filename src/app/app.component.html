@@ -1,2 +1,7 @@
 <h1>{{title}}</h1>
+<main>
+  <p>You picked <span class="cardName">{{card.name}}</span></p>
+  <p><img [src]="imageSrc" [alt]="card.number"></p>
+  <p><a (click)="next()">Next Card</a></p>
+</main>
 <app-footer></app-footer>
