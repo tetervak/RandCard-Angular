@@ -7,7 +7,7 @@ import {RandomCard} from './random-card';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public title = 'Rand Card';
+  public title = 'Random Card';
   public card: RandomCard;
   public imageSrc: string;
   private nextCard: RandomCard;
