@@ -8,6 +8,7 @@ h1{
   color: #4caf50;
   text-shadow: 2px 2px 5px #81c784;
 }
+
 a{
   color: #0288D1;
   font-weight: bolder;
@@ -22,5 +23,9 @@ span.cardName{
   font-size: larger;
   font-weight: bolder;
   color: #ff9800;
+}
+
+footer{
+  margin-top: 2em;
 }
 
